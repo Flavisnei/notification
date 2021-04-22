@@ -27,6 +27,7 @@ class Email{
 
     }
     
+    
     public function sendMail($subject, $body, $replyEmail, $replyName, $addressEmail, $addressName) {
         $this->mail->Subject = (string)$subject;
         $this->mail->Body = $body;
