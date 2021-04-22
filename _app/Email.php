@@ -23,8 +23,7 @@ class Email{
         $this->mail->CharSet = 'utf-8';
         $this->mail->setLanguage('br');
         $this->mail->isHTML(true);
-        $this->mail->setFrom('suporte@pimentavirtual.com.br', 'Flavisnei Favalessa');
-        
+        $this->mail->setFrom('suporte@pimentavirtual.com.br', 'Flavisnei Favalessa');        
 
     }
     
