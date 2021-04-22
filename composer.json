@@ -1,0 +1,33 @@
+{
+    "name": "flavisney/notification",
+    "description": "SISTEMA DE NOTIFICACAO VIA E-MAIL",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "FLAVISNEI",
+            "email": "flavisnei@gmail.com",
+            "homepage": "https://www.br364.com.br",
+            "role": "werbmater"
+        },
+        {
+            "name": "FERNANDO",
+            "email": "fifavalessa@gmail.com",
+            "homepage": "https://www.br364.com.br",
+            "role": "werbmater"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+        
+    }
+}
